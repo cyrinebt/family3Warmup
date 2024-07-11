@@ -10,7 +10,9 @@ function MyPartnerName(firstname, lastname) {
 let MultipleOf13orNot = function() {
 
 }
-
+function combineNames(firstName, lastName) {
+    return firstName + " " + lastName;
+}
 
 
 
@@ -19,10 +21,30 @@ let MultipleOf13orNot = function() {
 
 const  AgeInSeconds = (age) =>  {
 
+
+    // Constants
+    const secondsPerMinute = 60;
+    const minutesPerHour = 60;
+    const hoursPerDay = 24;
+    const daysPerYear = 365;
+
+    
+    const totalSeconds = age * daysPerYear * hoursPerDay * minutesPerHour * secondsPerMinute;
+    return totalSeconds;
 }
+
+
+
 //  * 5 - Write a function sameLength that accepts two strings as arguments, and returns true if those strings have the same length, and false otherwise.
 
 const sameLength=(string1, string2)=> {
+}
+
+function sameLength(string1,strings){
+
+
+
+return str1.length === str2.length;
 }
 /**
  *? 6 - Write a function called (reverseStr) that takes a string as an input and returns the reverse of each letter
@@ -32,6 +54,20 @@ const sameLength=(string1, string2)=> {
  * @param {string} str
  * @return {string}
  */
+ function reverseStr(inputStr) {
+    let reversedStr = '';
+    let index = 0;
+    let length = inputStr.length;
+    
+    while (length > 0) {
+        length--;
+        reversedStr += inputStr[length] + index;
+        index++;
+    }
+    
+    return reversedStr;
+}
+
 
 let reverseStr = function (str){
 }
@@ -56,6 +92,24 @@ const laugh= function (num){
  * @param {array} array
  * @return {Array}
  */
+function reverseArray(arr) {
+    let start = 0;
+    let end = arr.length - 1;
+    
+    while (start < end) {
+        
+        [arr[start], arr[end]] = [arr[end], arr[start]];
+      
+        start++;
+        end--;
+    }
+    
+    return arr;
+}
+
+
+
+
 
 let reverseArray = (array ) => {}
 
@@ -82,6 +136,6 @@ let findAll2 = (arr,n) => {}
 //
 // Note : you can`t use any built-in functions .
 
-let reverseWord=(string) => {
+let reverseWord=(string) => {}
 
-}
+
