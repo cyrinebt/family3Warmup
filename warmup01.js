@@ -37,11 +37,8 @@ const  AgeInSeconds = (age) =>  {
 
 //  * 5 - Write a function sameLength that accepts two strings as arguments, and returns true if those strings have the same length, and false otherwise.
 
-const sameLength=(string1, string2)=> {
+const sameLength=(str1, str2)=> {
 }
-
-function sameLength(string1,strings){
-
 
 
 return str1.length === str2.length;
