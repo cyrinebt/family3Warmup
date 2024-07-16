@@ -38,11 +38,11 @@ const  AgeInSeconds = (age) =>  {
 //  * 5 - Write a function sameLength that accepts two strings as arguments, and returns true if those strings have the same length, and false otherwise.
 
 const sameLength=(str1, str2)=> {
-}
-
-
 return str1.length === str2.length;
 }
+
+
+
 /**
  *? 6 - Write a function called (reverseStr) that takes a string as an input and returns the reverse of each letter
  *? followed by a number starting from zero(solve it using while loop).

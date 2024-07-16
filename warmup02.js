@@ -4,8 +4,20 @@
  * counting(1); // => '1'
  * counting(3); // => '1, 2, 3'
  */
+function counter(n) {
+    let result = [];
+    for (let i = 1; i <= n; i++) {
+        result.push(i);
+    }
+    return result.join(', ');
+}
 
-let countring = (number) => 
+
+
+
+
+
+
 
 
 /**
@@ -14,10 +26,10 @@ let countring = (number) =>
  * @return {any}
  */
 
- flet midElement =function (array) {
-   
+ 
+        
 
-}
+
 
 /**
  * 4 - write a function called (sameLength) that takes array of strings and returns an array of the strings that have the same length
@@ -90,4 +102,11 @@ let objKey=(object)=>{
  * @param {Object} obj
  * @return number
  */
-let objLength=(obj) =>
+let objLength=(obj) =>{}
+
+function objLength(obj){
+
+    let count =0
+    for (let key in obj) {
+        if
+}
