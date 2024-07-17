@@ -16,16 +16,12 @@ function counter(n) {
 
 
 
-
-
-
-
 /**
  * 3-write a function called (midElement) that takes an array as an argument and returns the element that is located in the middle of that array.
  * @param {Array<any>} array
  * @return {any}
  */
-
+let midElement=(array)=> arat
  
         
 
@@ -41,7 +37,9 @@ function counter(n) {
 
   
 let sameLength =function (array) {
-  
+  let
+
+
 }
 
 /**
@@ -61,6 +59,19 @@ let sameLength =function (array) {
  let findAll = function (array, n) {
    
 };
+function findAll(array, n) {
+    let result = [];
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] === n) {
+            indices.push(i);
+        }
+    }
+    return indices;
+}
+
+
+
+
 
 // 6. write a function that takes a string as an argument
 // and returns the string reversed word by word
@@ -68,7 +79,7 @@ let sameLength =function (array) {
 //
 //
 // Note : you can`t use any built-in functions .
-
+g
 let reverseWord=(string) => {
 
 }
@@ -105,8 +116,9 @@ let objKey=(object)=>{
 let objLength=(obj) =>{}
 
 function objLength(obj){
-
     let count =0
     for (let key in obj) {
-        if
+        
 }
+}
+
