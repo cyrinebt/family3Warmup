@@ -9,8 +9,7 @@
 
 
 function objSort(array){
-
-    
+    return obj.sort((a, b) => {
 }
 
 /**
@@ -42,6 +41,10 @@ function objSort(array){
  * explanation: There is only 1 unique element: 1.
 * 
  */
+function countUniqueElements (arr){}
+let uniqueElements = new set (arr);
+return uniqueElements.size;
+
 
 /**
  * Title: Sum of Array Pairs
