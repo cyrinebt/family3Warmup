@@ -9,7 +9,7 @@
 
 
 function objSort(array){
-    return obj.sort((a, b) => {
+    return obj.sort(a, b) => (a.id-b.id)
 }
 
 /**
@@ -46,6 +46,13 @@ let uniqueElements = new set (arr);
 return uniqueElements.size;
 
 
+let uniqueElements = (array)=> {
+    for (i=0 ; i<array.length;i++){
+
+    }
+}
+
+
 /**
  * Title: Sum of Array Pairs
  * 
@@ -78,3 +85,15 @@ return uniqueElements.size;
  * Output: []
  * explanation: There are no pairs that add up to the target sum of 10.
  */
+
+let sumofArrayPairs = (array,target) => {
+      let arr =[] ;
+      for (let i=0; i< array.length, i++){
+        
+      }
+        for (let )
+      )
+
+
+
+}
