@@ -89,10 +89,10 @@ let uniqueElements = (array)=> {
 let sumofArrayPairs = (array,target) => {
       let arr =[] ;
       for (let i=0; i< array.length, i++){
-        
+
       }
         for (let )
-      )
+      
 
 
 
