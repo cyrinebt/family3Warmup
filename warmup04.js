@@ -9,11 +9,17 @@
 function iterateAndLog(n) {
 
   // TODO: your work goes here
-
+(``)
 }
 function iterateAndLog(n) {
-  for (let i = n; i >= 0; i--) {
+
+  for (let i = n-1; i >= 0; i-- {
     if (i % 2 === 0) {
+      console.log(i+"is even");
+    }
+    else {
+      console.log(i+"is odd")
+    }
 
 
 
@@ -33,7 +39,7 @@ function fib(number) {
     if (n < 0) return;
   
     if (n % 2 === 0) {
-
+    console.log("")
 
 
 
@@ -48,3 +54,47 @@ function sumOfFirstAndLast(number) {
   const lastDigit = number % 10;
 
 } 
+
+
+
+://  Let's make a counter using closures. For our purposes, a counter is simply a function that, when invoked, returns a number that is one higher than it used to be. For example, this is the behavior that we want:
+function makeCounter() {
+  let count = 0
+  return function () {
+    count +=1;
+    return count;
+  }
+}
+ var counter1= makeCounter();
+ var counter2= makeCounter();
+ console.log(counter1())
+
+ function makeCounter(start = 0) {
+  let count = start;  // Initialize count with the provided start value
+
+  return function() {
+      count += 1;  // Increment the count
+      return count;  // Return the updated count
+  };
+}
+
+var counter1 = makeCounter(100);
+console.log(counter1()); // => 101
+console.log(counter1()); // => 102
+
+
+
+
+function pow(exponent) {
+  return function(base) {  // The inner function takes 'base' as an argument
+      return Math.pow(base, exponent);  // Use Math.pow to raise 'base' to 'exponent'
+  };
+}
+
+var square = pow(2);
+var cube = pow(3);
+var power4 = pow(4);
+
+console.log(square(5)); // => 25
+console.log(cube(3));   // => 27
+console.log(power4(4)); // => 256
